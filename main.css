@@ -44,7 +44,7 @@ ul {
 }
 
 #about{
-	padding-top: 250px;
+	padding-top: 100px;
 	text-align: center;
 	width: 100vw;
 	height: 80vh;
@@ -95,6 +95,12 @@ ul {
 	margin: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+#avatar{
+	height: 250px;
+	width: 200px;
+	border-radius: 50%;
 }
 
 .fa:hover {
