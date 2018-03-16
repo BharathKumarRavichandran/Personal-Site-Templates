@@ -1,0 +1,95 @@
+
+body{
+	background-image: url("bg.jpg");
+	position: relative;
+} 
+
+header{
+	display: inline-block;
+}
+
+
+#tb{
+	color: darkred;
+	font-size: 40px;
+	font-weight: 100;
+	opacity: 1;
+	letter-spacing: 0em;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#title{
+	padding-top: 40px;
+	padding-left: 250px;
+}
+
+#bt1,#bt2,#bt3,#bt4,#bt5{
+	color: white;
+	font-size: 25px;
+	letter-spacing: 0.1em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.stitle{
+	color: white;
+	font-weight: 900;
+	font-size: 40px;
+	letter-spacing: 0.2em;
+	margin-bottom: 30px;
+}
+
+#about{
+	padding-top: 250px;
+	text-align: center;
+	width: 100vw;
+	height: 80vh;
+	opacity: 0.9;
+}
+
+#thoughts,#skills,#projects{
+	padding-top: 250px;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.9;
+}
+
+#contact{
+	padding-top: 250px;
+	text-align: center;
+	width: 100vw;
+	height: 90vh;
+	opacity: 0.9;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.content{
+	text-align: center;
+	color: green;
+	letter-spacing: 0.2em;
+}
+
+a:hover, a:link, a:visited, a:active{
+	color: blue;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+}
+
+footer{
+	color: darkred;
+	letter-spacing: 0.1em;
+	text-align: left;
+	font-weight: 800;
+}
